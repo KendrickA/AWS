@@ -35,7 +35,7 @@ public class AwsSend {
 	@Bean(destroyMethod = "shutdown")
 	public AmazonSQSAsync amazonSQS() {
 						
-		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJ6NFGXM6QI6PCUZA", "h9gEcRsFX2w9ij6mt9BqMbJPR2AVLEVBiCz30Klz");
+		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJ6NFGXM6QI6PCUZA", "h9z");
 
 		AmazonSQSAsyncClient amazonSQSAsyncClient = new AmazonSQSAsyncClient(new AWSStaticCredentialsProvider(awsCreds));
 	  
